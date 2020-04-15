@@ -220,6 +220,7 @@
     display:flex;
     justify-content: space-around;
     align-items: center;
+    flex-direction: row-reverse;
     width: 581px;
     height: 44px;
     border-top-left-radius: 40px;
@@ -239,8 +240,8 @@
   .mic{
     position:relative;
     width:14px;
-    height:20px;
-    margin-right:16px;
+    height:19px;
+    margin-left:16px;
     cursor: pointer;
   }
   .mic1::before,.mic1::after{
@@ -282,11 +283,11 @@
     align-items:center;
   }
   #glass{
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     opacity: 1;
     margin-left:6px;
-    margin-right:0px;
+    margin-right:6px;
     opacity: 0.5;
     
   }
@@ -298,6 +299,7 @@
     border: transparent;
     outline: none;
     font: 16px arial,sans-serif;
+    direction: rtl;
   }
   .search:focus::-webkit-search-cancel-button{
     position: relative;
