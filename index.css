@@ -237,7 +237,7 @@ span{
 .mic{
   position:relative;
   width:14px;
-  height:20px;
+  height:19px;
   margin-right:16px;
   cursor: pointer;
 }
@@ -280,8 +280,8 @@ span{
   align-items:center;
 }
 #glass{
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   opacity: 1;
   margin-left:6px;
   margin-right:0px;
